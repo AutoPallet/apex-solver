@@ -20,7 +20,7 @@ apex-io = { path = "crates/apex-io", version = "0.2.0" }
 apex-camera-models = { path = "crates/apex-camera-models", version = "0.2.0" }
 
 # External dependencies (shared versions)
-nalgebra = { version = "0.33" }
+nalgebra = { version = "0.34" }
 faer = { version = "0.24", features = ["sparse"] }
 rayon = "1.12"
 thiserror = "2.0.18"
@@ -37,17 +37,17 @@ num_cpus = "1.17"
 rerun = { version = "0.26.2", features = ["sdk"] }
 ureq = "2.12"
 bzip2 = "0.5"
-toml = "0.8"
+toml = "1.0"
 
 # rosbag optional dependencies
 serde_yaml = "0.9"
 byteorder  = "1.5"
 bytes      = "1.11"
 hex        = "0.4"
-image      = "0.24"
+image      = "0.25"
 rusqlite   = { version = "0.31", features = ["bundled"] }
 zstd       = "0.13"
-mcap       = "0.8"
+mcap       = "0.24"
 
 # DDS support
 rustdds = "0.10"
@@ -57,8 +57,8 @@ futures = "0.3"
 # Dev dependencies
 criterion = "0.6.0"
 tempfile = "3.27"
-factrs = "0.2.0"
-tiny-solver = "0.17"
+factrs = "0.3.0"
+tiny-solver = "0.18"
 csv = "1.4"
 
 [workspace.lints.clippy]
